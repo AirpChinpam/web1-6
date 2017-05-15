@@ -20,3 +20,83 @@ body{
   clear: both;
   display: block;
 }
+
+.explanation{
+  float: left;
+  width: 468px;
+}
+
+dt{
+  clear: left;
+  float: left;
+  font-weight: bold;
+}
+
+.btn{
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  margin: 5px;
+  width: 70px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+}
+
+.btn:hover{
+  opacity: 0.4;
+}
+
+.btn:active{
+  color: blue;
+}
+
+.btn-submit{
+  background-color: gold;
+}
+
+.btn-reset{
+  background-color: coral;
+}
+
+#ingredient{
+  border: 2px solid lightblue;
+  border-collapse: collapse;
+}
+
+th{
+   border: 1px solid lightblue;
+  background-color: mistyrose;
+  padding: 5px;
+  width: 60px;
+  text-align: center;
+}
+td{
+  border: 1px solid lightblue;
+  padding: 5px;
+  width: 80px;
+  text-align: right;
+}
+
+caption{
+  padding: 5px;
+}
+
+#price{
+  background-color: lightgreen;
+}
+
+thead th, tfoot th{
+  background-color: brown;
+}
+
+thead td{
+  color: pink;
+  background-color: white;
+  text-align: center;
+}
+
+tfoot td{
+  font-weight: bold;
+  background-color: lightgreen;
+}
