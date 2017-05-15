@@ -52,27 +52,27 @@ dt{
 }
 
 .btn-submit{
-  background-color: gold;
+  background-color: silver;
 }
 
 .btn-reset{
-  background-color: coral;
+  background-color: lightcoral;
 }
 
 #ingredient{
-  border: 2px solid lightblue;
+  border: 2px solid blue;
   border-collapse: collapse;
 }
 
 th{
-   border: 1px solid lightblue;
+   border: 1px solid blue;
   background-color: mistyrose;
   padding: 5px;
   width: 100px;
   text-align: center;
 }
 td{
-  border: 1px solid lightblue;
+  border: 1px solid blue;
   padding: 5px;
   width: 80px;
   text-align: right;
@@ -83,7 +83,7 @@ caption{
 }
 
 #price{
-  background-color: lightgreen;
+  background-color: green;
 }
 
 thead th, tfoot th{
@@ -98,5 +98,5 @@ thead td{
 
 tfoot td{
   font-weight: bold;
-  background-color: lightgreen;
+  background-color: green;
 }
